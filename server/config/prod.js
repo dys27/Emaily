@@ -3,7 +3,9 @@ module.exports = {
     googleClientID: process.env.GOOGLE_CLIENT_ID,
     googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
     mongoURI: process.env.MONGO_URI,
-    cookieKey: process.env.COOKIE_KEY
+    cookieKey: process.env.COOKIE_KEY,
+    stripePulishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
+    stripeSecretKey: process.env.STRIPE_SECRET_KEY
     // googleClientID: '305295346796-10cf0esttpento2n3uvlfir3vsf4ar6c.apps.googleusercontent.com',
     // googleClientSecret: '9-l_iW2toVgp9_TipMspZsPa',
     // mongoURI: 'mongodb+srv://dys27:Urdead9786@cluster0-dda1e.mongodb.net/test?retryWrites=true',
